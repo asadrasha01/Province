@@ -1,0 +1,98 @@
+img {
+    width: 150px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+    }
+
+.username {
+    font-weight: bold;
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background: #1E3024;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background: #1E3024;
+    height: 80px;
+    width: 100%;
+}
+
+hr {
+    color: #214C3A;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top: 1px solid;
+
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-right: 20px;
+    margin-top: none;
+}
+
+nav ul li a {
+    color: #F1FCFA;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    transition: 0.2s;
+    color: #42BA88;
+    
+}
+
+.booktable{
+    background-color: #214C3A;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 40px;
+}
+
+.booktable:hover {
+    background-color: #336633; 
+    color: #F1FCFA;
+    border-color: #42BA88; 
+    cursor: pointer;
+}
+
+.logo {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.frline {
+    padding-top: 50px;
+}
+
+.imagepr {
+    padding-left: 45px;
+    height: 350px;
+    width: auto;
+    border-radius: 40px;
+    border-left-width: 20px;
+
+}
